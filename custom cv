@@ -1,11 +1,9 @@
 /**
- * @name ClearVision
- * @author ClearVision Team
- * @version 6.3.0
- * @description Highly customizable theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
- * @invite dHaSxn3
+ * @name Custom_ClearVision
+ * @author Nuno Gao and the ClearVision Team
+ * @version 1.0
+ * @description Highly customizable theme for BetterDiscord customized by Nuno Gao
+ * @source https://github.com/mininoodle/custom-clearvision/
  */
 
 /* Credits to Zerthox for making the original theme. */
