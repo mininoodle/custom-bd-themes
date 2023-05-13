@@ -8,12 +8,21 @@
 
 /* Credits to Zerthox for making the original theme. */
 
-/* IMPORT CSS */
+/* IMPORT CSS */--settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+	--settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
+	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
+}
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
 /* SETTINGS */
 :root {
+	--settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+	--settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
+	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
+}
   /* ACCENT COLORS */
   --main-color: #9e6fbe; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
@@ -492,31 +501,6 @@
 .contentWarningPopout-WKdbDG g > :nth-child(11) > :first-child path {
   fill: #fbd907;
 }
-  /*
-	!!READ THIS!!
-	
-	This theme lets you swap the default emojis of discord with the emojis of a provider of your choice.
-	To change the provider simply swap the marked word in the import url down below with a supported provider listed below.
-	The name of the provider is CASE SENSITIVE, meaning you have to write it exactly like it's written below.
-	Correct: Apple
-	False: apple, APPLE, aPpLe
-	
-	Supported Providers:
-		→ Apple
-		→ Facebook
-		→ Google
-		→ JoyPixels
-		→ Microsoft
-		→ OpenMoji
-		→ Samsung
-		→ Toss
-		→ WhatsApp
-*/
-
-/*																				  REPLACE THIS		*/
-/*																					 ↓↓↓↓↓			*/
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
-/*																					 ↑↑↑↑↑		  	*/
-/*		
+ 
 }
 
