@@ -10,6 +10,7 @@
 
 /* IMPORT CSS */
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 /* SETTINGS */
 :root {
@@ -110,11 +111,7 @@
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
   --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
   --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
-}
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-
-:root {
-  /*
+    /*
     * Spacing
     */
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
@@ -148,3 +145,4 @@
     */
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
+
