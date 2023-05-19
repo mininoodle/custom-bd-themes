@@ -8,10 +8,12 @@
 
 /* Credits to Zerthox for making the original theme. */
 
-/* IMPORT CSS */													*/
+/* IMPORT CSS */
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-															*/
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css')
+
+/* SETTINGS */
+:root {
   /* ACCENT COLORS */
   --main-color: #9e6fbe; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
@@ -109,7 +111,7 @@
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
   --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
   --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
-    /*
+	 /*
     * Spacing
     */
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
@@ -139,3 +141,7 @@
   	--rs-online-color
   ); /* Colour of the ring and phone icon when a user is on their phone  */
   /*
+    * Others
+    */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
